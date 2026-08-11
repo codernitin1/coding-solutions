@@ -29,7 +29,7 @@ Output: Friend
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-11T02:52:20.718Z  
+**Submitted:** 2026-08-11T02:52:45.456Z  
 
 ```java
 import java.util.Scanner;
