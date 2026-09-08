@@ -41,9 +41,9 @@ Result = 32 - 11 = 21
 ## Solution
 
 **Language:** Java  
-**Runtime:** 0 ms  
-**Memory:** 41.9 MB  
-**Submitted:** 2026-09-08T08:36:38.806Z  
+**Runtime:** 0 ms (beats 100.00%)  
+**Memory:** 42 MB (beats 81.37%)  
+**Submitted:** 2026-09-08T12:53:53.679Z  
 
 ```java
 class Solution {
