@@ -26,7 +26,8 @@ class Solution {
            }
        }
            return (int)ans;
-    }private boolean ispossible(int []arr , int k, long maxpages ){
+    }
+    private boolean ispossible(int []arr , int k, long maxpages ){
         int student = 1;
         long curpage =0;
         
