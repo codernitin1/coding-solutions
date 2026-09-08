@@ -36,7 +36,7 @@ Explanation: Since there are more students than total books, it's impossible to 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-08T04:02:09.667Z  
+**Submitted:** 2026-09-08T04:15:58.321Z  
 
 ```java
 class Solution {
@@ -67,7 +67,8 @@ class Solution {
            }
        }
            return (int)ans;
-    }private boolean ispossible(int []arr , int k, long maxpages ){
+    }
+    private boolean ispossible(int []arr , int k, long maxpages ){
         int student = 1;
         long curpage =0;
         
