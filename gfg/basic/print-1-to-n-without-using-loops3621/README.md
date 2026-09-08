@@ -31,14 +31,13 @@ Explanation: We have to print numbers from 1 to 10.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-03T04:14:54.302Z  
+**Submitted:** 2026-09-08T02:53:26.496Z  
 
 ```java
 class Solution {
     int count=1;
     void f(int n){
         if(count>n)return ;
-        
             System.out.print(count+" ");
             count++;
             f(n);
