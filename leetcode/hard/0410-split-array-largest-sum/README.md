@@ -43,9 +43,9 @@ The best way is to split it into [1,2,3] and [4,5], where the largest sum among 
 ## Solution
 
 **Language:** Java  
-**Runtime:** 0 ms  
-**Memory:** 42.7 MB  
-**Submitted:** 2026-09-08T04:18:20.795Z  
+**Runtime:** 0 ms (beats 100.00%)  
+**Memory:** 42.9 MB (beats 68.65%)  
+**Submitted:** 2026-09-08T04:18:28.504Z  
 
 ```java
 
