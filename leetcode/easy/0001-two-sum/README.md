@@ -53,9 +53,9 @@ Output: [0,1]
 ## Solution
 
 **Language:** Java  
-**Runtime:** 51 ms (beats 5.87%)  
-**Memory:** 46.8 MB (beats 90.88%)  
-**Submitted:** 2026-09-03T02:28:07.908Z  
+**Runtime:** 49 ms (beats 8.01%)  
+**Memory:** 47.2 MB (beats 40.93%)  
+**Submitted:** 2026-09-09T03:05:20.176Z  
 
 ```java
 class Solution {
@@ -66,7 +66,6 @@ class Solution {
                 if(nums[i]+nums[j]==target){
                 a[0]=i;
                 a[1]=j;
-                return a;
                 }
             }
         }
