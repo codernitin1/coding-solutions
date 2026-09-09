@@ -30,7 +30,7 @@ Explanation: The value of the arr[4] is 50.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-09T16:46:37.788Z  
+**Submitted:** 2026-09-09T16:46:59.728Z  
 
 ```java
 class Solution {
