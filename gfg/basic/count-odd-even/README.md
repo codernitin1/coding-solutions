@@ -31,7 +31,7 @@ Explanation: There are 2 odd elements (1, 1) and no even elements.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-09T17:11:05.081Z  
+**Submitted:** 2026-09-09T17:20:04.971Z  
 
 ```java
 class Solution {
@@ -41,12 +41,12 @@ class Solution {
         int even=0;
         for(int i=0;i<=arr.length-1;i++){
             if(arr[i]%2==0){
-                odd++;
-            }else{
                 even++;
+            }else{
+                odd++;
             }
         }
-         return new int[]{even, odd};
+        return new int[] {odd,even};
     }
 }
 ```
