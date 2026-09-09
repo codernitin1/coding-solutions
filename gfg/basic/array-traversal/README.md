@@ -26,12 +26,12 @@ Explanation: Just traverse and print the numbers.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-09T16:51:24.425Z  
+**Submitted:** 2026-09-09T16:51:49.286Z  
 
 ```java
 class Solution {
     public static void arrayTraversal(int[] arr) {
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 0; i <= arr.length-1; i++) {
             System.out.print(arr[i] + " ");
         }
     }
