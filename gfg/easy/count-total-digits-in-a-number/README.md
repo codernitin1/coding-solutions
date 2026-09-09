@@ -28,7 +28,7 @@ Explanation: Number of digit in 99999 is 5
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-09T16:24:23.063Z  
+**Submitted:** 2026-09-09T16:24:27.336Z  
 
 ```java
 class Solution {
