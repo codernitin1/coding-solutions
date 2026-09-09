@@ -29,14 +29,14 @@ Explanation: After rotating clock-wise 3 comes in first position.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-09T18:58:19.832Z  
+**Submitted:** 2026-09-09T19:02:55.592Z  
 
 ```java
 class Solution {
     public static void rotate(int[] arr) {
         //code here 
         int last = arr[arr.length -1];
-        for (int i=arr.length-1;i>0;i--) {
+        for (int i=arr.length-1;i>=1;i--) {
             arr[i] = arr[i-1];
         }
         arr[0] = last;
