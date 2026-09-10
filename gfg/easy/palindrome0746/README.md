@@ -34,7 +34,7 @@ Explanation: if number is palindrome, mainly ignore sign.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-10T03:55:26.003Z  
+**Submitted:** 2026-09-10T03:58:21.633Z  
 
 ```java
 
