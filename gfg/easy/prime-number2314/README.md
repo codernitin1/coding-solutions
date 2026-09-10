@@ -33,7 +33,7 @@ Explanation: 1 has only one divisor (1 itself), which is not sufficient for it t
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-10T03:27:32.436Z  
+**Submitted:** 2026-09-10T03:29:51.218Z  
 
 ```java
 class Solution {
@@ -42,7 +42,7 @@ class Solution {
        if (n <= 1) return false;
         if (n <= 3) return true;
         if (n % 2 == 0 || n % 3 == 0) return false;
-        for (int i = 5; i * i <= n; i += 6) {
+        for (int i = 5; i * i <= n; i++) {
             if (n % i == 0 || n % (i + 2) == 0) {
                 return false;
             }
