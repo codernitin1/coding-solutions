@@ -38,7 +38,7 @@ Explanation: 100 is not an Armstrong number since 13 + 03 + 03 = 1.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-03T03:10:18.741Z  
+**Submitted:** 2026-09-10T04:13:49.759Z  
 
 ```java
 class Solution {
