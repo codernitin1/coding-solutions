@@ -44,27 +44,17 @@ Output: [3,4,6,16,17]
 ## Solution
 
 **Language:** Java  
-**Runtime:** 0 ms  
-**Memory:** 43 MB  
-**Submitted:** 2026-09-11T05:35:31.186Z  
+**Runtime:** 0 ms (beats 100.00%)  
+**Memory:** 43.9 MB (beats 93.44%)  
+**Submitted:** 2026-09-11T05:45:19.935Z  
 
 ```java
 class Solution {
     public int[] runningSum(int[] nums) {
-        int sum=0;
-        
-         for(int i =1;i<nums.length-1;i++){
-            nums[i]=nums[i-1]+nums[i];
-            if(nums[nums.length-1]<=nums[i]){
-                nums[nums.length-1]+=nums[i];
-                return nums;
-            }
-            else if(nums[nums.length-1]>=nums[i]){
-                nums[i]=nums[i-1]+nums[i];
-                return nums;
-            }
-         }
-         return nums;
+        for (int i = 1; i < nums.length; i++) {
+            nums[i] += nums[i - 1];
+        }
+        return nums;
     }
 }
 ```
