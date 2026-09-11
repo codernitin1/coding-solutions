@@ -46,20 +46,19 @@ Explanation: The array ans is formed as follows:
 **Language:** Java  
 **Runtime:** 1 ms (beats 97.67%)  
 **Memory:** 47.2 MB (beats 36.52%)  
-**Submitted:** 2026-09-11T15:37:06.928Z  
+**Submitted:** 2026-09-11T15:40:45.907Z  
 
 ```java
 class Solution {
     public int[] getConcatenation(int[] nums) {
-        int n = nums.length;
-        int[] ans = new int[2 * n];
-        
-        for (int i = 0; i < n; i++) {
-            ans[i] = nums[i];
-            ans[i + n] = nums[i];
-        }
-        
-        return ans;
+      int n = nums.length;
+      int[] ans = new int[2*n];
+
+      for(int i=0;i<n;i++){
+        ans[i] = nums[i];
+        ans[i + n] = nums[i];
+      }
+      return ans;
     }
 }
 ```
