@@ -41,21 +41,25 @@ Your task is to solve it in `O(log(n))` time complexity.
 ## Solution
 
 **Language:** Java  
-**Runtime:** 0 ms  
-**Memory:** 42.6 MB  
-**Submitted:** 2026-09-15T15:43:47.388Z  
+**Runtime:** 0 ms (beats 100.00%)  
+**Memory:** 80.2 MB (beats 76.27%)  
+**Submitted:** 2026-09-15T15:46:08.549Z  
 
 ```java
 class Solution {
     public int peakIndexInMountainArray(int[] arr) {
-        int Fmax = arr.length;
-        int max = arr[0];
-        for(int i=0;i<Fmax;i++){
-            if(arr[i]<=max){
-                return i;
+        int left = 0;
+        int right = arr.length - 1;
+        while (left < right) {
+            int mid = left + (right - left) / 2;
+            if (arr[mid] < arr[mid + 1]) {
+                left = mid + 1;
+            } else {
+                right = mid;
             }
         }
-        return 1;
+
+        return left;
     }
 }
 ```
