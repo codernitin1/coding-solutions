@@ -56,26 +56,13 @@ Chef has only $2$ notebooks, so he can prepare at most $2$ gift packs.
 
 ## Solution
 
-**Language:** Java  
+**Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-15T02:53:03.006Z  
+**Submitted:** 2026-09-15T02:59:06.294Z  
 
-```java
-import java.util.*;
-import java.lang.*;
-import java.io.*;
-
-class Codechef
-{
-	public static void main (String[] args) throws java.lang.Exception
-	{
-		// your code goes here
-		int temp=0;
-		 
-		 for(int i=0;i<)
-	}
-}
+```py
+# cook your dish here
 
 ```
 
