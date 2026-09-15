@@ -42,24 +42,24 @@ Your task is to solve it in `O(log(n))` time complexity.
 
 **Language:** Java  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 80.2 MB (beats 76.27%)  
-**Submitted:** 2026-09-15T15:46:08.549Z  
+**Memory:** 80.5 MB (beats 21.10%)  
+**Submitted:** 2026-09-15T15:49:55.634Z  
 
 ```java
 class Solution {
     public int peakIndexInMountainArray(int[] arr) {
-        int left = 0;
-        int right = arr.length - 1;
-        while (left < right) {
-            int mid = left + (right - left) / 2;
-            if (arr[mid] < arr[mid + 1]) {
-                left = mid + 1;
-            } else {
-                right = mid;
+        
+        int l=0;
+        int r=arr.length-1;
+        while(l<r){
+            int mid = l+(r-l)/2;
+            if(arr[mid] < arr[mid+1]){
+                l = mid+1;
+            }else{
+                r = mid;
             }
         }
-
-        return left;
+        return l;
     }
 }
 ```
