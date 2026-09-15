@@ -59,7 +59,7 @@ Chef has only $2$ notebooks, so he can prepare at most $2$ gift packs.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-15T02:51:45.009Z  
+**Submitted:** 2026-09-15T02:52:54.994Z  
 
 ```java
 import java.util.*;
@@ -71,7 +71,9 @@ class Codechef
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
-
+		int temp=0;
+		 
+		 for(int i=0;i<)
 	}
 }
 
