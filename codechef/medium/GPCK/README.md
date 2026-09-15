@@ -59,7 +59,7 @@ Chef has only $2$ notebooks, so he can prepare at most $2$ gift packs.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-15T02:52:54.994Z  
+**Submitted:** 2026-09-15T02:53:03.006Z  
 
 ```java
 import java.util.*;
