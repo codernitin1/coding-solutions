@@ -50,8 +50,8 @@ Output: 23
 
 **Language:** Java  
 **Runtime:** 7 ms (beats 83.68%)  
-**Memory:** 47.8 MB (beats 57.64%)  
-**Submitted:** 2026-09-17T04:06:48.749Z  
+**Memory:** 48.1 MB (beats 22.33%)  
+**Submitted:** 2026-09-17T04:19:11.465Z  
 
 ```java
 
@@ -64,16 +64,14 @@ class Solution {
                 max=piles[i];
             }
         }
-
+        
         int e=max;
         while(s<e){
             int mid=(s+e)/2;
-
             int time=0;
             for(int i=0;i<piles.length;i++){
                 time+= (piles[i]+mid-1)/mid;
             }
-
             if(time>h){
                 s=mid+1;
             }else{
