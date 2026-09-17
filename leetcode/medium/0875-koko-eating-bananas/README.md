@@ -50,8 +50,8 @@ Output: 23
 
 **Language:** Java  
 **Runtime:** 7 ms (beats 83.68%)  
-**Memory:** 48.1 MB (beats 22.33%)  
-**Submitted:** 2026-09-17T04:19:11.465Z  
+**Memory:** 47.9 MB (beats 42.70%)  
+**Submitted:** 2026-09-17T04:22:19.521Z  
 
 ```java
 
