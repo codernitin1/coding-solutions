@@ -49,11 +49,12 @@ Output: 23
 ## Solution
 
 **Language:** Java  
-**Runtime:** 7 ms (beats 82.70%)  
-**Memory:** 47.6 MB (beats 87.86%)  
-**Submitted:** 2026-09-03T03:32:13.442Z  
+**Runtime:** 7 ms (beats 83.68%)  
+**Memory:** 47.8 MB (beats 57.64%)  
+**Submitted:** 2026-09-17T04:06:48.749Z  
 
 ```java
+
 class Solution {
     public int minEatingSpeed(int[] piles, int h) {
         int s=1;
@@ -65,7 +66,6 @@ class Solution {
         }
 
         int e=max;
-
         while(s<e){
             int mid=(s+e)/2;
 
