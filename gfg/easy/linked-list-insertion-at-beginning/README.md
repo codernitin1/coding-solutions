@@ -29,7 +29,7 @@ Explanation: We can see that 1 is inserted at the beginning of the linked list.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-20T18:01:34.513Z  
+**Submitted:** 2026-09-21T02:44:13.134Z  
 
 ```java
 class Solution {
