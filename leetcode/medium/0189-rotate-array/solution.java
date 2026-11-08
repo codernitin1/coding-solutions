@@ -1,16 +1,11 @@
 class Solution {
     public void rotate(int[] nums, int k) {
         int n = nums.length;
-        k = k % n;
-        
-        for (int i = 0; i < k; i++) {
-            int lastElement = nums[n - 1];
-            
-            for (int j = n - 1; j > 0; j--) {
-                nums[j] = nums[j - 1];
-            }
-            
-            nums[0] = lastElement;
+        int[] oldNums = nums.clone();
+
+        for (int i = 0; i < n; i++) {
+            int newPosition = (i + k) % n;
+            nums[newPosition] = oldNums[i];
         }
     }
 }
