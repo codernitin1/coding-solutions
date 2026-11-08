@@ -49,27 +49,22 @@ rotate 2 steps to the right: [3,99,-1,-100]
 ## Solution
 
 **Language:** Java  
-**Runtime:** 5 ms (beats 61.61%)  
-**Memory:** 268.3 MB (beats 75.52%)  
-**Submitted:** 2026-11-08T16:20:55.161Z  
+**Runtime:** 8 ms (beats 8.10%)  
+**Memory:** 273 MB (beats 10.88%)  
+**Submitted:** 2026-11-08T16:23:42.418Z  
 
 ```java
 class Solution {
     public void rotate(int[] nums, int k) {
         int n = nums.length;
-        k = k % n; 
-        reverse(nums, 0, n - 1);
-        reverse(nums, 0, k - 1); 
-        reverse(nums, k, n - 1);
-    }
-    
-    private void reverse(int[] nums, int start, int end) {
-        while (start < end) {
-            int temp = nums[start];
-            nums[start] = nums[end];
-            nums[end] = temp;
-            start++;
-            end--;
+        int[] temp = new int[n];
+        
+        for (int i = 0; i < n; i++) {
+            temp[(i + k) % n] = nums[i];
+        }
+        
+        for (int i = 0; i < n; i++) {
+            nums[i] = temp[i];
         }
     }
 }
