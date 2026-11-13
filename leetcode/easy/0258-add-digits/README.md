@@ -43,23 +43,16 @@ Output: 0
 ## Solution
 
 **Language:** Java  
-**Runtime:** 2 ms (beats 25.94%)  
-**Memory:** 42 MB (beats 86.35%)  
-**Submitted:** 2026-11-13T12:19:41.441Z  
+**Runtime:** 0 ms  
+**Memory:** 41 MB  
+**Submitted:** 2026-11-13T12:20:08.704Z  
 
 ```java
 class Solution {
     public int addDigits(int num) {
         while (num >= 10) {
-            int digitSum = 0;
-            while (num > 0) {
-                digitSum += num % 10; 
-                num /= 10;            
-            }
-            
-            num = digitSum;          
+            num = (num / 10) + (num % 10);
         }
-        
         return num;
     }
 }
