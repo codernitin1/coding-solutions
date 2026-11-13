@@ -1,15 +1,8 @@
 class Solution {
     public int addDigits(int num) {
         while (num >= 10) {
-            int digitSum = 0;
-            while (num > 0) {
-                digitSum += num % 10; 
-                num /= 10;            
-            }
-            
-            num = digitSum;          
+            num = (num / 10) + (num % 10);
         }
-        
         return num;
     }
 }
